@@ -1,0 +1,22 @@
+<html>
+<head>
+	<script src="/js/ajax_form.js">
+	</script>
+</head>
+
+<body bgcolor="grey">
+<FORM name="input"> 
+
+<div>What do you want to look for  <INPUT NAME="add">
+<INPUT value="go" type="button" onclick='JavaScript:xmlhttpPost("/cgi-bin/listmaker.cgi","input","result")'>
+</div>
+</input>
+
+</FORM>
+
+
+<!-- http://www.cs.tut.fi/~jkorpela/perl/cgi.html -->
+
+<div id="result"> </div>
+</body>
+</html>

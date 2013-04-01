@@ -38,7 +38,7 @@ my @pulllist;
 while ($title = <$wanted>)
 	{
 	chomp($title);
-	push(@pulllist, lc($title))
+	push(@pulllist, $title)
 	}
 close($wanted);
 
